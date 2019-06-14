@@ -1,28 +1,4 @@
-/*
-    Validform datatype extension
-	By sean during December 8, 2012 - February 20, 2013
-	For more information, please visit http://validform.rjboy.cn
-	
-	扩展以下类型：
-	date：匹配日期
-	zh：匹配中文字符
-	dword：匹配双字节字符
-	money：匹配货币类型
-	ipv4：匹配ipv4地址
-	ipv6：匹配ipv6地址
-	num：匹配数值型
-	qq：匹配qq号码
-	decmal:浮点数
-	unequal：当前值不能等于被检测的值，如可以用来检测新密码不能与旧密码一样
-	notvalued：当前值不能包含指定值，如密码不能包含用户名等的检测
-	min：多选框最少选择多少项
-	max：多选框最多不能超过多少项
-	byterange:判断字符长度，中文算两个字符
-	numrange：判断数值范围，如小于100大于10之间的数
-	daterange：判断日期范围
-	idcard：对身份证号码进行严格验证
-	
-*/
+
 
 (function(){
 	if($.Datatype){
