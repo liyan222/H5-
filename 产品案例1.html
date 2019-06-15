@@ -30,7 +30,14 @@
 			display: none;
 			cursor: crosshair;
 		}
-		</style>
+		.wenzi {
+	font-family: "等线", "方正舒体", "仿宋", "黑体", "华文彩云", "华文仿宋", "华文行楷", "华文楷体", "华文隶书", "华文宋体", "华文细黑", "华文中宋", "楷体", "宋体";
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	margin:20px;
+}
+        </style>
         </head>
         
 <body><!-- 头部  never --><div class="header fixed " id="nofixed"><div class="nocontainer nopd">
@@ -41,16 +48,18 @@
 	<!-- nav -->
 	<div class="navs" >
 	<ul>
-	<li><a href="javascript:;">首页</a></span></li>
-	<li><span><a href='javascript:;'>产品案例</a></span></li>
+	<li><a href="index.html">首页</a></span></li>
+	<li><span><a href='产品案例1.html'>产品案例</a></span></li>
 	<li><a href="javascript:;">联系我们</a></span></li>
 	</ul></div><!-- /nav --></div></div><!-- /头部 -->
     
-	<div class="hg60"></div><!-- 内容开始 --><div class="n-back-0"><div class="kwidth pt25"><!-- LEFT --><div class="content-left"><!-- 子菜单 --><div class="subcate" ><h3 style="background:rgba(205,0,0,1);"><a href="javascript:;">产品案例1</a></h3>
+	<div class="hg60"></div><!-- 内容开始 --><div class="n-back-0"><div class="kwidth pt25"><!-- LEFT --><div class="content-left"><!-- 子菜单 --><div class="subcate" ><h3 style="background:rgba(205,0,0,1);"><a href="产品案例1.html">产品案例1</a></h3>
 	<ul>
-	<li><a href="javascript:;">产品案例2</a></li>
-	<li class='on'><a href='javascript:;'>产品案例3</a></li>
-	<li><a href="javascript:;">产品案例4</a></li>
+	<li><a href="产品案例2.html">产品案例2</a></li>
+	<li><a href='产品案例3.html'>产品案例3</a></li>
+	<li><a href="产品案例4.html">产品案例4</a></li>
+    <li><a href="产品案例5.html">产品案例5</a></li>
+    <li><a href="产品案例6.html">产品案例6</a></li>
 	</ul>
 	<div class="hg10 backf0"></div><div class="left-remoon pb15"><h3>推荐设备<a class="ar fr" href="">MORE</a></h3>
 <a href="javascript:;"><img src="images/582437f28f95a.jpg" alt="智能设备" /></a><p>澳门电力工业的新挑战</p>
@@ -71,24 +80,46 @@
 <p>
 	<br />
 </p>
+<script>
+	var video; //声明变量
+function init()
+{
+    video = document.getElementById("video1");
+    video.addEventListener("ended", function() // 监听视频播放结束事件
+    {
+      alert(" 播放结束。");
+    }, true);
+}
+function play()
+{
+    video.play(); // 播放视频
+}
+function pause()
+{
+    video.pause(); // 暂停播放
+}
+</script>
+</head>
+<body onload="init()">
 
-	<canvas id="canvas" width="600" height="400"></canvas>
-		<canvas id="copycanvas" width="250" height="250"></canvas>
-		<div id="square"></div>
-        <script src="js/camp1.js"></script>
+ <video id="video1" src="images/1.mp4" controls>
+  </video><br/>
+</body>
+
+
 <p>&nbsp;
 	</p>
-<p>
+<div class="wenzi"><p>
 	“澳电通过智能电网技术的应用，有效提升了供电的稳定性及服务质量。长期以来，供电可靠性指标一直处于全球的领先水平，平均服务可用指数在99.9998%。”澳门电力股份有限公司的电力系统调度部总监刘筱驹先生，在澳电大楼内侃侃而谈，不远处的港珠澳大桥像一条巨龙，舞动在蔚蓝的海湾之上……。</p>
 <br />
 <p>
-	澳门开埠至今已有450多年。说起澳门，给人的印象是中西合璧、多元文化共存的城市，这里综合了中国与欧洲的文化色彩，有着众多中葡特色的旅游景点。澳门电力工业的发展同样历史悠久，它为澳门的繁荣作出了卓越的贡献。</p>
+	澳门开埠至今已有450多年。说起澳门，给人的印象是中西合璧、多元文化共存的城市，这里综合了中国与欧洲的文化色彩，有着众多中葡特色的旅游景点。澳门电力工业的发展同样历史悠久，它为澳门的繁荣作出了卓越的贡献。</p></br>
 <p>&nbsp;
 澳电（澳门电力股份有限公司Companhia de Electricidade de Macau – CEM, S.A.）是拥有在澳门特别行政区输送、分配及出售高、中和低压电力的公共供电服务专营机构。澳电亦拥有发电设施。澳门的输电网由22座主变电站、6座客户高压开关站，以及长达293公里的66千伏、110千伏及220千伏高压电缆所组成。澳门电网通过两个110千伏联络通道和两个220千伏联络通道和中国南方电网互联。澳电几乎所有的电网由地下电缆构成。<br />
 <br />
 澳门的面积只有约32平方公里，而最高用电负荷已经超过100万千瓦，负荷密度相当高。澳门总用电量于过去十年的升幅近55%，这是由于多个大型基建及赌场项目相继落成和投运，以及智能生活模式的迅速发展，越来越多市民及商户于其住宅及商业场所内装设各种自动化设备。<br />
 <br />
-澳门的供电网络由地底电缆组成，要做好这些大型项目及旧区重建的供电配套，必须牵涉开挖道路工程，这对市民出行造成某种程度的不便，这对澳电来说是一项挑战，刘筱驹介绍道。此外，澳电认为可持续发展的经营方式对城市是否能永续发展十分重要，在保护环境的条件下既满足市民对电力的需求，又以不损害下一代的需求为前瞻的发展模式，是另一项挑战。同时，澳门作为国际化的城市，对供电质量及服务质量的要求都非常高，澳电需要借助各种先进的科技应用才能为用户提供优质的电力和服务。<br />
+澳门的供电网络由地底电缆组成，要做好这些大型项目及旧区重建的供电配套，必须牵涉开挖道路工程，这对市民出行造成某种程度的不便，这对澳电来说是一项挑战，刘筱驹介绍道。此外，澳电认为可持续发展的经营方式对城市是否能永续发展十分重要，在保护环境的条件下既满足市民对电力的需求，又以不损害下一代的需求为前瞻的发展模式，是另一项挑战。同时，澳门作为国际化的城市，对供电质量及服务质量的要求都非常高，澳电需要借助各种先进的科技应用才能为用户提供优质的电力和服务。<br /></div>
 
 <div class="hg15"></div>
 <!-- 推荐产品 -->
@@ -98,7 +129,7 @@
 <li class="wow slideInUp" data-wow-delay=".4s"><div class="content"><a class="img" href='javascript:;'><img src="images/582438c180cef.jpg"  alt="RTM6 PLI" /></a><h3 class="f14 pt10 pb5"><a title="RTM6 PLI" href='javascript:;'>敦煌：丝路神韵袅千年，智慧旅游新体验</a></h3><p class="ar f12"></p></div></li>
 <li class="wow slideInUp" data-wow-delay=".5s"><div class="content"><a class="img" href='javascript:;'><img src="images/582523d4dddf8.jpg"  alt="工业科技EFD设备" /></a><h3 class="f14 pt10 pb5"><a title="工业科技EFD设备" href='javascript:;'>智慧延布工业城，“石油王国”的转型发动机</a></h3><p class="ar f12"></p></div></li>
 
-</ul></div><!-- /推荐产品 --></div></div></div><!-- 内容开始 -->
+</ul></div></body><!-- /推荐产品 --></div></div></div><!-- 内容开始 -->
 <!-- footer --><div class="hg42"></div><div class="footer footer-fixed" id="footer" style="background:#fff"><i class="footer-bor" style="background:#000;opacity:.1";></i><div class="kwidth npb"><div class="max50 fixed-right white-footer fr"><div class="shar fr bdsharebuttonbox"><a class="bds_tsina" data-cmd="tsina" href="javascript:;" target="_blank"></a><a class="bds_qzone" data-cmd="qzone" href="javascript:;" target="_blank"></a><a class="bds_tqq" data-cmd="tqq" href="javascript:;" target="_blank"></a></div><div class="fr mr10">Copyright by 大米科技</div></div></div></div><!-- /footer --><div class="kefu_q3" style="right:3px;bottom:40px;">
 </div>
 </html>

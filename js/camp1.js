@@ -7,7 +7,7 @@ var canvas = document.getElementById('canvas'),
 	box = canvas.getBoundingClientRect();
 
 image = new Image(),
-image.src = "images/582437f28f95a.jpg";
+image.src = "images/5825231526da5.jpg";
 image.onload = function(){
 	context.drawImage(image,0,0,canvas.width,canvas.height);
 }
